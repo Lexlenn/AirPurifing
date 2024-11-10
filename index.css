@@ -1,8 +1,8 @@
 p{
-    color:black;font-size:20px;position:absolute;width:400px;top:34%;
+    color:gold;font-size:20px;position:absolute;width:400px;top:34%;
 }
 body{
     display:flex;
     justify-content:center;
-    background-color:black
+    background-color:white
 }
