@@ -9,7 +9,8 @@ p{
 body{
     display:flex;
     justify-content:center;
-    background-color:white
+    background-color:white;
+    
 }
 header{
     background-color:black;
@@ -19,7 +20,7 @@ header{
     display:flex;
     align-items:center;
     justify-content:center;
-    max-width:1290px;
+    max-width:1080px;
 }
 .box {
     width: 60%
