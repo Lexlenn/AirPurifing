@@ -70,21 +70,7 @@ header{
     
 }
 
-@media(max-width:450px){
-   .logo,.menu{
-    width:13.5%;
-   }
-   #link{
-    font-size: 70%;
-   }
-   .lay{
-       height:93%;
-       top:8%;
-   }
-   .box{
-    width:0%;
-   }
-}
+
 @media(max-height:651px){
     .lay{
        top:10%;
@@ -100,14 +86,33 @@ header{
         top: 21%;
     }
 }
-@media(min-width:540px) {
+@media (max-width:540px) {
     #link{
         font-size: 80%;
     }
+    
     .box{
         width: 8%;
     }
     .logo{
         width: 11%;
+    }
+}
+@media(max-width:450px) {
+    .logo, .menu {
+        width: 13.5%;
+    }
+
+    #link {
+        font-size: 70%;
+    }
+
+    .lay {
+        height: 93%;
+        top: 8%;
+    }
+
+    .box {
+        width: 0%;
     }
 }
