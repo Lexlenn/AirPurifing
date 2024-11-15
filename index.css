@@ -30,7 +30,7 @@ header{
     height:55px
 }
 .box {
-    width: 60%
+    width: 54%
 }
 .logo{
     color:greenyellow;
@@ -51,10 +51,10 @@ header{
 
 @media screen and (max-width:1020px){
    .logo,.menu{
-    width:15%;
+    width:13.5%;
    }
    #link{
-    font-size: 80%;
+    font-size: 70%;
    }
    .box{
     width:0%;
