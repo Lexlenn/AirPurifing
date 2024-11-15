@@ -56,7 +56,7 @@ header{
     width:100%;
     height:93%;
     position:absolute;
-    enable-background;
+    background-color:transparent;
     top:7%;
     
 }
@@ -67,6 +67,10 @@ header{
    }
    #link{
     font-size: 70%;
+   }
+   .lay{
+       height:93%;
+       top:8%;
    }
    .box{
     width:0%;
