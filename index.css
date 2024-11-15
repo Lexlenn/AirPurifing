@@ -1,6 +1,4 @@
-p{
-    color:gold;font-size:20px;position:absolute;width:400px;top:34%;
-}
+
 *{
     margin:0;
     padding:0;
@@ -10,11 +8,18 @@ body{
     display:flex;
     justify-content:center;
     background-color:white;
-    
+   
 }
+.Hipe{
+    display: flex;
+    height: 900px;
+    width: 100%;
+}
+
 header{
     background-color:black;
-    width:100%
+    width:100%;
+    height: 6%;
 }
 .container{
     display:flex;
@@ -28,19 +33,27 @@ header{
 }
 .logo{
     color:greenyellow;
-    width:10%;
+    width:8%;
     height:50px;
 }
 .menu{
-    color:red;
+    color:rgb(160, 160, 160);
     width:25%
 }
-#link:visited{
-    color:white
+#link:active{
+    color:rgb(165, 0, 0)
 }
+#link{
+    color:rgb(117, 112, 112)
+}
+
+
 @media screen and (max-width:1020px){
    .logo,.menu{
-    width:20%;
+    width:13%;
+   }
+   #link{
+    font-size: 93%;
    }
    .box{
     width:10%;
