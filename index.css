@@ -10,6 +10,7 @@ body{
     background-color:rgb(233, 233, 233);
    
 }
+
 .Hipe{
     display: flex;
     height: 500px;
@@ -30,7 +31,7 @@ header{
     height:55px
 }
 .box {
-    width: 54%;
+    width: 30%;
 }
 .logo{
     color:greenyellow;
@@ -39,7 +40,7 @@ header{
 }
 .menu{
     color:rgb(160, 160, 160);
-    width:25%
+    width:10%
 }
 #link:active{
     color:rgb(165, 0, 0)
@@ -49,7 +50,7 @@ header{
     border-radius:4px;
     font-style:italic;
     color:black;
-    font-size:12px;
+    font-size:13px;
 }
 /* 
    ██╗     ███████╗ ██████╗ ██████╗  █████╗ ██████╗  ██████╗  ██████╗ 
@@ -62,16 +63,27 @@ header{
 
 .lay{
     display:flex;
+    align-items:center;
     width:100%;
-    height:93%;
+    height:90%;
     position:absolute;
     background-color:transparent;
-    top:7%;
+    top:18%;
     
 }
 
-
-@media(max-height:651px){
+.texto{
+   display:flex;
+   justify-content:center;
+   position:absolute;
+   top:1%;
+   width:100%;
+   height:7%
+}
+#complemento {
+    position: absolute;
+}
+@media(max-height:651px) {
     .lay{
        top:10%;
     }
@@ -80,6 +92,7 @@ header{
     .lay {
         top: 15%;
     }
+    
 }
 @media(max-height:222px) {
     .lay {
@@ -90,7 +103,9 @@ header{
     #link{
         font-size: 80%;
     }
-    
+    h1{
+        font-size:21px;
+    }
     .box{
         width: 8%;
     }
