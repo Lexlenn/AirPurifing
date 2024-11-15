@@ -7,7 +7,7 @@
 body{
     display:flex;
     justify-content:center;
-    background-color:white;
+    background-color:rgb(233, 233, 233);
    
 }
 .Hipe{
@@ -49,7 +49,7 @@ header{
     border-radius:4px;
     font-style:italic;
     color:black;
-    font-size:17px;
+    font-size:12px;
 }
 .lay{
     display:flex;
@@ -61,7 +61,7 @@ header{
     
 }
 
-@media screen and (max-width:1020px){
+@media(max-width:450px){
    .logo,.menu{
     width:13.5%;
    }
@@ -75,4 +75,16 @@ header{
    .box{
     width:0%;
    }
+}
+
+@media(min-width:540px) {
+    #link{
+        font-size: 80%;
+    }
+    .box{
+        width: 8%;
+    }
+    .logo{
+        width: 11%;
+    }
 }
