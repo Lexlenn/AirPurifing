@@ -15,13 +15,13 @@
 body{
     display:flex;
     justify-content:center;
-    background-color:rgb(228, 238, 243);
+    background-color:rgba(209, 214, 208, 0.39);
    
 }
 
 .Hipe{
     display: flex;
-    height: 500px;
+    height: 540px;
     width: 100%;
 }
 
