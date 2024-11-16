@@ -15,7 +15,7 @@
 body{
     display:flex;
     justify-content:center;
-    background-color:rgb(233, 233, 233);
+    background-color:rgb(228, 238, 243);
    
 }
 
@@ -54,9 +54,10 @@ header{
     color:rgb(165, 0, 0)
 }
 #link{
-    background-color:#857b7b;
-    border-radius:4px;
-    font-style:italic;
+    background-color:#a7acb3;
+    border-radius:3px;
+    font-style:normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:black;
     font-size:16px;
 }
@@ -95,7 +96,7 @@ top: 9%;
     width: 10%;
 }
 .serifado{
-    font-family: serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .FDM{
     display: flex;
