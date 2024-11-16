@@ -83,6 +83,16 @@ header{
 #complemento {
     position: absolute;
 }
+.Proposta{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height:7%;
+top: 9%;
+}
+.bo2{
+    width: 10%;
+}
 @media(max-height:651px) {
     .lay{
        top:10%;
@@ -115,7 +125,7 @@ header{
 }
 @media(max-width:450px) {
     .logo, .menu {
-        width: 13.5%;
+        width: 15%;
     }
 
     #link {
