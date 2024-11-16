@@ -94,18 +94,19 @@ top: 9%;
     width: 10%;
 }
 @media(max-height:651px) {
-    .lay{
+    .lay,.Proposta{
        top:10%;
     }
+    
 }
 @media(max-height:422px) {
-    .lay {
+    .lay,.Proposta {
         top: 15%;
     }
     
 }
 @media(max-height:222px) {
-    .lay {
+    .lay,.Proposta {
         top: 21%;
     }
 }
