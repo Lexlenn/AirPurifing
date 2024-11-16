@@ -155,12 +155,17 @@ top: 9%;
     .logo{
         width: 11%;
     }
+    .img{
+        width: 270px;
+    }
 }
 @media(max-width:450px) {
     .logo, .menu {
         width: 15%;
     }
-
+    .img{
+        width: 270px;
+    }
     #link {
         font-size: 70%;
     }
