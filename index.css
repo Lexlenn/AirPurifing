@@ -557,3 +557,47 @@ top: 10%;
         height: 50px;
     }
 }
+@media(max-width:311px) {
+    .logo, .menu {
+        width: 15%;
+    }
+
+    .img {
+        width: 170px;
+        height: 233px;
+    }
+
+    .logomg {
+        height: 49px;
+        width: 40px;
+    }
+
+    .serifado {
+        text-align: center;
+    }
+
+    .bo2 {
+        width: 4%;
+    }
+
+    #link {
+        font-size: 70%;
+    }
+
+    .lay {
+        height: 91%;
+        top: 9%;
+    }
+
+    .box {
+        width: 0%;
+    }
+
+    .fundo {
+        height: 90.9%;
+    }
+
+    .container {
+        height: 50px;
+    }
+}
