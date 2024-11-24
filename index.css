@@ -360,6 +360,37 @@ top: 10%;
         height:290px;
     }
 }
+@media (max-width:720px) {
+    #link {
+        font-size: 70%;
+    }
+
+    .serifado {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .bo2 {
+        width: 4%;
+    }
+
+    h1 {
+        font-size: 21px;
+    }
+
+    .box {
+        width: 8%;
+    }
+
+    .logo {
+        width: 11%;
+    }
+
+    .img {
+        width: 220px;
+        height: 290px;
+    }
+}
 @media(max-width:450px){
     .logo, .menu {
         width: 15%;
