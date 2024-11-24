@@ -1,4 +1,4 @@
-﻿
+
 /* 
    ██╗     ███████╗ ██████╗ ██████╗  █████╗ ██████╗ ██████╗   ██████╗ 
    ██║     ██╔════╝██║   ██║██╔══██╗██╔══██╗██╔══██╗██╔═══██╗██║   ██║
@@ -253,29 +253,33 @@ top: 10%;
     }
     .Hipe{
         height: 600px;
+        .logo{
+            width:10%;
+        }
     }
-    .logo{
-        width:10%;
-    }
-}
-@media(max-height:554px){
-    .lay,.Proposta,.FDM{
-        top:10%;
-    }
-    .Hipe{
-        height: 554px;
-    }
+    
     .img{
         width: 170px;
         height: 205px;
     }
-    .logo{
-        width:15%;
+}
+@media(max-height:554px){
+    .lay,.Proposta,.FDM{
+       top:10%;
     }
-    .header{
-        height: 8%;
+    .Hipe{
+        height: 600px;
+        .logo{
+            width:15%;
+        }
+    }
+    
+    .img{
+        width: 170px;
+        height: 205px;
     }
 }
+
 @media(max-height:422px){
     .lay,.Proposta,.FDM {
         top: 15%;
@@ -444,42 +448,5 @@ top: 10%;
     
     .box {
         width: 0%;
-    }
-}
-@media(max-width:320px){
-    .logo, .menu{
-        width: 15%;
-    }
-    .img{
-        width: 170px;
-        height:233px;
-    }
-    .logomg{
-        height: 49px;
-        width: 40px;
-    }
-    .serifado{
-        text-align: center;
-    }
-    .bo2{
-        width: 4%;
-    }
-    #link {
-        font-size: 75%;
-    }
-    
-    .lay {
-        height: 91%;
-        top: 9%;
-    }
-    
-    .box {
-        width: 0%;
-    }
-    .fundo{
-        height: 90.9%;
-    }
-    .container{
-        height: 50px;
     }
 }
