@@ -45,7 +45,7 @@ header{
     align-items:center;
     justify-content: center;
     max-width:1080px;
-    height:55px
+    height:55px;
 }
 .box {
     width: 25%;
@@ -141,11 +141,12 @@ top: 10%;
 @media(max-height:1024px){
     .Hipe{
         height: 1024px;
-        header{
-            height: 6.4%;
-     }
+     
    
-    }  
+    }
+    header {
+        height: 6.4%;
+    }
     .logo{
         width:7%;
     }
@@ -160,33 +161,36 @@ top: 10%;
 @media(max-height:950px){
     .Hipe{
         height: 950px;
-    header{
-    height: 6.6%;
           }
-          }
+    header {
+        height: 6.6%;
+    }
 }
 @media(max-height:896px){
     .Hipe{
         height: 896px;
-        header{
-            height: 6.6%;
-        }
+       
+    }
+    header {
+        height: 6.6%;
     }
 }
 @media(max-height:882px){
     .Hipe{
         height: 882px;
-        header{
-            height: 6.6%;
-        }
+       
+    }
+    header {
+        height: 6.6%;
     }
 }
 @media(max-height:844px){
     .Hipe{
         height: 844px;
-        header{
-            height: 6.6%;
-        }
+      
+    }
+    header {
+        height: 6.6%;
     }
     .fundo{
         height: 91%;
@@ -195,18 +199,19 @@ top: 10%;
 @media(max-height:800px){
     .Hipe{
         height: 800px;
-        header{
-            height: 6.6%;
-        }
+
     }
-   
+    header {
+        height: 6.6%;
+    }
 }
 @media(max-height:764px){
     .Hipe{
         height: 763px;
-        header{
-            height: 7%;
-        }
+        
+    }
+    header {
+        height: 7%;
     }
     .lay{
         top: 13%;
@@ -218,9 +223,10 @@ top: 10%;
 @media(max-height:720px){
     .Hipe{
         height: 720px;
-        header{
-            height: 8%;
-        }
+      
+    }
+    header {
+        height: 8%;
     }
 }
 @media(max-height:670px){
@@ -235,9 +241,10 @@ top: 10%;
     }
     .Hipe{
         height: 650px;
-        header{
-            height: 9%;
-        }
+        
+    }
+    header {
+        height: 9%;
     }
     .img{
         width: 170px;
@@ -258,6 +265,29 @@ top: 10%;
         width:10%;
     }
 }
+@media(max-height:570px) {
+    .lay, .Proposta, .FDM {
+        top: 10%;
+    }
+
+    .Hipe {
+        height: 554px;
+    }
+
+    .img {
+        width: 170px;
+        height: 205px;
+    }
+
+    .logo {
+        width: 15%;
+    }
+
+    .header {
+        height: 8%;
+    }
+}
+
 @media(max-height:554px){
     .lay,.Proposta,.FDM{
         top:10%;
@@ -368,7 +398,7 @@ top: 10%;
         height:290px;
     }
     #link {
-        font-size: 90%;
+        font-size: 100%;
     }
     .complemento{
         text-align: center;
@@ -480,6 +510,50 @@ top: 10%;
         height: 90.9%;
     }
     .container{
+        height: 50px;
+    }
+}
+@media(max-width:315px) {
+    .logo, .menu {
+        width: 15%;
+    }
+
+    .img {
+        width: 170px;
+        height: 233px;
+    }
+
+    .logomg {
+        height: 49px;
+        width: 40px;
+    }
+
+    .serifado {
+        text-align: center;
+    }
+
+    .bo2 {
+        width: 4%;
+    }
+
+    #link {
+        font-size: 74%;
+    }
+
+    .lay {
+        height: 91%;
+        top: 9%;
+    }
+
+    .box {
+        width: 0%;
+    }
+
+    .fundo {
+        height: 90.9%;
+    }
+
+    .container {
         height: 50px;
     }
 }
