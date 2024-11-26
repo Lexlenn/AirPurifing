@@ -20,8 +20,9 @@ body{
    
 }   
 .Hipe{
+    min-height:100vh;
     display: flex;
-    height: 650px;
+    height:100%;
     width: 100%;
 }
 .fundo{
@@ -31,7 +32,7 @@ body{
     background-position: bottom center;
     position: absolute;
     width: 100%;
-    height: 94%;
+    height: 100%;
     opacity: 80%;
 }
 header{
@@ -71,17 +72,16 @@ header{
     display:flex;
     align-items:center;
     width:100%;
-    height: 85.076%;
     position:absolute;
     background-color:transparent;
-    top:15%;
+    top:0%;
     
 }
 .texto{
    display:flex;
    justify-content:center;
    position:absolute;
-   top:1%;
+   top:10%;
    width:100%;
    height:7%
 }
@@ -94,7 +94,7 @@ header{
     width: 100%;
     height:7%;
     right: 0%;
-top: 10%;
+    top: 16%;
 }
 .bo2{
     width: 5%;
@@ -113,16 +113,14 @@ top: 10%;
     position: absolute;
     background-color: transparent;
     width: 100%;
-    height: 80%;
+    height: 70%;
     align-items: center;
     justify-content: center;
 }
 /*altura*/
 
 @media(max-height:1180px){
-    .Hipe{
-        height: 1180px;
-    }
+ 
     header{
         height: 6.8%;
     }
@@ -139,11 +137,6 @@ top: 10%;
 }
 
 @media(max-height:1024px){
-    .Hipe{
-        height: 1024px;
-     
-   
-    }
     header {
         height: 6.4%;
     }
@@ -159,90 +152,57 @@ top: 10%;
 }
 
 @media(max-height:950px){
-    .Hipe{
-        height: 950px;
-          }
     header {
         height: 6.6%;
     }
 }
 @media(max-height:896px){
-    .Hipe{
-        height: 896px;
-       
-    }
+  
     header {
         height: 6.6%;
     }
 }
 @media(max-height:882px){
-    .Hipe{
-        height: 882px;
-       
-    }
+
     header {
         height: 6.6%;
     }
 }
 @media(max-height:844px){
-    .Hipe{
-        height: 844px;
-      
-    }
+  
     header {
         height: 6.6%;
     }
-    .fundo{
-        height: 91%;
-    }
+   
 }
 @media(max-height:800px){
-    .Hipe{
-        height: 800px;
-
-    }
+  
     header {
         height: 6.6%;
     }
 }
 @media(max-height:764px){
-    .Hipe{
-        height: 763px;
-        
-    }
+  
     header {
         height: 7%;
     }
-    .lay{
-        top: 13%;
-    }
-    .fundo{
-        height: 92.6%;
-    }
+   
 }
 @media(max-height:720px){
-    .Hipe{
-        height: 720px;
-      
-    }
+  
     header {
         height: 8%;
     }
 }
 @media(max-height:670px){
-    .Hipe{
-        height: 674px;
-    }
+   
    
 }
 @media(max-height:650px){
-    .lay,.Proposta,.FDM{
-       top:10%;
+    .Proposta,.FDM{
+       top:20%;
     }
-    .Hipe{
-        height: 650px;
-        
-    }
+  
     header {
         height: 9%;
     }
@@ -250,30 +210,23 @@ top: 10%;
         width: 170px;
         height: 210px;
     }
-    .fundo{
-        height: 91%;
-    }
+  
 }
 @media(max-height:600px){
-    .lay,.Proposta,.FDM{
+    .Proposta,.FDM{
        top:10%;
     }
-    .Hipe{
-        height: 600px;
-    }
+   
     .logo{
         width:10%;
     }
 }
 @media(max-height:570px) {
-    .lay, .Proposta, .FDM {
+    .Proposta, .FDM {
         top: 10%;
     }
 
-    .Hipe {
-        height: 554px;
-    }
-
+  
     .img {
         width: 170px;
         height: 205px;
@@ -289,12 +242,10 @@ top: 10%;
 }
 
 @media(max-height:554px){
-    .lay,.Proposta,.FDM{
+    .Proposta, .FDM {
         top:10%;
     }
-    .Hipe{
-        height: 554px;
-    }
+   
     .img{
         width: 170px;
         height: 205px;
@@ -307,7 +258,7 @@ top: 10%;
     }
 }
 @media(max-height:422px){
-    .lay,.Proposta,.FDM {
+    .Proposta, .FDM {
         top: 15%;
     }
     .img{
@@ -316,7 +267,7 @@ top: 10%;
     }
 }
 @media(max-height:222px){
-    .lay,.Proposta,.FDM {
+    .Proposta, .FDM {
         top: 21%;
     }
     .img{
@@ -411,15 +362,12 @@ top: 10%;
     .bo2{
         width: 4%;
     }
-    .lay {
-        height: 93%;
-        top: 8%;
-    }
 
     .box {
         width: 0%;
     }
 }
+
 @media(max-width:414px){
     .logo, .menu {
         width: 15%;
@@ -440,11 +388,36 @@ top: 10%;
     .bo2{
         width: 4%;
     }
-    .lay {
-        height: 92%;
-        top: 8%;
+    
+    .box {
+        width: 0%;
+    }
+}
+@media(max-width:393px) {
+    .logo, .menu {
+        width: 15%;
     }
 
+    .img {
+        width: 220px;
+        height: 290px;
+    }
+
+    #link {
+        font-size: 90%;
+    }
+
+    .complemento {
+        text-align: center;
+    }
+
+    .serifado {
+        text-align: center;
+    }
+
+    .bo2 {
+        width: 4%;
+    }
     .box {
         width: 0%;
     }
@@ -469,13 +442,8 @@ top: 10%;
     .bo2{
         width: 4%;
     }
-    .lay {
-        height: 91.5%;
-        top: 8%;
-    }
-    .fundo{
-        height: 93%;
-    }
+    
+   
     .box {
         width: 0%;
     }
@@ -498,11 +466,7 @@ top: 10%;
         font-size: 75%;
     }
     
-    .lay {
-        height: 93%;
-        top: 8%;
-    }
-    
+   
     .box {
         width: 0%;
     }
@@ -529,17 +493,12 @@ top: 10%;
         font-size: 75%;
     }
     
-    .lay {
-        height: 91%;
-        top: 9%;
-    }
+  
     
     .box {
         width: 0%;
     }
-    .fundo{
-        height: 90.9%;
-    }
+    
     .container{
         height: 50px;
     }
@@ -571,18 +530,13 @@ top: 10%;
         font-size: 74%;
     }
 
-    .lay {
-        height: 91%;
-        top: 9%;
-    }
+    
 
     .box {
         width: 0%;
     }
 
-    .fundo {
-        height: 90.9%;
-    }
+   
 
     .container {
         height: 50px;
@@ -615,18 +569,12 @@ top: 10%;
         font-size: 70%;
     }
 
-    .lay {
-        height: 91%;
-        top: 9%;
-    }
-
+    
     .box {
         width: 0%;
     }
 
-    .fundo {
-        height: 90.9%;
-    }
+   
 
     .container {
         height: 50px;
