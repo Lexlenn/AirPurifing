@@ -1,0 +1,4 @@
+var width = window.innerWidth; // Corrigido para "width"
+if (width >= 533) {
+    alert(width);
+}

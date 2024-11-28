@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function(){
     document.getElementById('lay1').style.height = document.getElementById('hiper').clientHeight - altura + "px"
     document.getElementById('lay1').style.top = `${altura}px`
     });
+
 })
 
 

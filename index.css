@@ -221,9 +221,14 @@ header{
         width:10%;
     }
 }
+@media(max-height:599px) {
+    .Proposta, .FDM {
+        top: 20%;
+    }
+}
 @media(max-height:570px) {
     .Proposta, .FDM {
-        top: 10%;
+        top: 20%;
     }
 
   
@@ -243,7 +248,7 @@ header{
 
 @media(max-height:554px){
     .Proposta, .FDM {
-        top:10%;
+        top:20%;
     }
    
     .img{
@@ -251,7 +256,7 @@ header{
         height: 205px;
     }
     .logo{
-        width:15%;
+        width:5%;
     }
     .header{
         height: 8%;
@@ -313,7 +318,7 @@ header{
 }
 @media (max-width:720px) {
     #link {
-        font-size: 70%;
+        font-size: 76%;
     }
 
     .serifado {
@@ -330,16 +335,19 @@ header{
     }
 
     .box {
-        width: 8%;
+        width: 0%;
     }
 
     .logo {
-        width: 11%;
+        width: 9%;
     }
 
     .img {
-        width: 220px;
-        height: 290px;
+        width: 170px;
+        height: 250px;
+    }
+    .FDM{
+        top:25%;
     }
 }
 @media(max-width:450px){
