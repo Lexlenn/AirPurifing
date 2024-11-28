@@ -25,6 +25,18 @@ body{
     width: 100%;
     z-index: 10;
 }
+.fundo{
+    background-image: url(FundoS.png);
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position: bottom center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 80%;
+    position: absolute;
+    z-index: -1;
+}
 .box {
     width: 25%;
 }
@@ -72,16 +84,30 @@ header{
 }
 .Back{
     margin: 2%;
-    width: 45%;
+    width: 200px;
     height: 50%;
     background-color: black;
 }
 .back{
     margin: 2%;
-    width: 45%;
+    width: 200px;
     height: 50%;
     background-color: black;
+    
 }
+.Text{
+background-color: rgb(199, 186, 186);
+height: 70%;
+width: 100%;
+opacity: 45;
+text-align: center;
+}
+.TextIM{
+    height: 70%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+} 
 /*altura*/
 @media(max-height:1180px){
  
@@ -249,37 +275,16 @@ header{
       width:6%;
     }
 }
-@media (max-width:540px){
-    #link{
-        font-size: 90%;
-        
-    }
-    .serifado{
-        text-align: center;
-        font-size: 12px;
-    }
-    .bo2{
-        width: 4%;
-    }
-    h1{
-        font-size:21px;
-    }
-    .box{
-        width: 8%;
-    }
-    .logo{
-        width: 11%;
-    }
-    .img{
-        width: 220px;
-        height:290px;
-    }
-}
 @media (max-width:720px) {
     #link {
         font-size: 70%;
     }
-
+    .back{
+        width: 145px;
+    }
+    .Back{
+        width: 145px;
+    }
     .serifado {
         text-align: center;
         font-size: 12px;
@@ -306,9 +311,48 @@ header{
         height: 290px;
     }
 }
+@media (max-width:540px){
+    #link{
+        font-size: 90%;
+        
+    }
+    .back{
+        width: 145px;
+    }
+    .Back{
+        width: 145px;
+    }
+    .serifado{
+        text-align: center;
+        font-size: 12px;
+    }
+    .bo2{
+        width: 4%;
+    }
+    h1{
+        font-size:21px;
+    }
+    .box{
+        width: 8%;
+    }
+    .logo{
+        width: 11%;
+    }
+    .img{
+        width: 220px;
+        height:290px;
+    }
+}
+
 @media(max-width:450px){
     .logo, .menu {
         width: 15%;
+    }
+    .back{
+        width: 145px;
+    }
+    .Back{
+        width: 145px;
     }
     .img{
         width: 220px;
@@ -336,6 +380,12 @@ header{
     .logo, .menu {
         width: 15%;
     }
+    .back{
+        width: 145px;
+    }
+    .Back{
+        width: 145px;
+    }
     .img{
         width: 220px;
         height:290px;
@@ -361,7 +411,12 @@ header{
     .logo, .menu {
         width: 15%;
     }
-
+    .back{
+        width: 145px;
+    }
+    .Back{
+        width: 145px;
+    }
     .img {
         width: 220px;
         height: 290px;
@@ -389,6 +444,12 @@ header{
 @media(max-width:390px){
     .logo, .menu {
         width: 15%;
+    }
+    .back{
+        width: 145px;
+    }
+    .Back{
+        width: 145px;
     }
     .img{
         width: 220px;
@@ -426,6 +487,12 @@ header{
     .bo2{
         width: 4%;
     }
+    .back{
+        width: 145px;
+    }
+    .Back{
+        width: 145px;
+    }
     #link {
         font-size: 75%;
     }
@@ -438,6 +505,12 @@ header{
 @media(max-width:320px){
     .logo, .menu{
         width: 15%;
+    }
+    .back{
+        width: 145px;
+    }
+    .Back{
+        width: 145px;
     }
     .img{
         width: 170px;
@@ -471,7 +544,12 @@ header{
     .logo, .menu {
         width: 15%;
     }
-
+    .back{
+        width: 145px;
+    }
+    .Back{
+        width: 145px;
+    }
     .img {
         width: 170px;
         height: 233px;
@@ -515,7 +593,12 @@ header{
         width: 170px;
         height: 233px;
     }
-
+    .back{
+        width: 145px;
+    }
+    .Back{
+        width: 145px;
+    }
     .logomg {
         height: 49px;
         width: 40px;

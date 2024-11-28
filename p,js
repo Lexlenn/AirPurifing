@@ -1,4 +1,7 @@
-var width = window.innerWidth; // Corrigido para "width"
-if (width >= 533) {
-    alert(width);
-}
+
+addEventListener('DOMContentLoaded',function(){
+    var L = window.innerWidth; // Corrigido para "width"
+   
+    
+})
+
