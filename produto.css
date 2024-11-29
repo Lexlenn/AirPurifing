@@ -49,6 +49,17 @@ body{
     position: absolute;
     z-index: -1;
 }
+.boxC{
+    width: 64%;
+    height: 50%;
+    background-color: black;
+}
+.lin{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(129, 121, 121);
+    text-align: center;
+}
 .box {
     width: 25%;
 }
@@ -120,8 +131,24 @@ text-align: center;
 #title{
     font-size: 120%;
 }
+#title1{
+    font-size: 130%;
+    color: wheat;
+}
 #text{
     font-size: 90%;
+}
+.fts{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+    opacity: 90%;
+}
+#fim{
+   font-size: 200%;
+    color: white;
 }
 .TextIM{
     height: 70%;
