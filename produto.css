@@ -84,20 +84,20 @@ header{
 }
 .Back{
     margin: 2%;
-    width: 200px;
-    height: 50%;
+    width: 400px;
+    height: 55%;
     background-color: black;
 }
 .back{
     margin: 2%;
-    width: 200px;
-    height: 50%;
+    width: 400px;
+    height: 55%;
     background-color: black;
     
 }
 .Text{
 background-color: rgb(199, 186, 186);
-height: 70%;
+height: 65%;
 width: 100%;
 opacity: 45;
 text-align: center;
