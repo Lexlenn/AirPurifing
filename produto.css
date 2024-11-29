@@ -133,7 +133,7 @@ text-align: center;
 }
 #title1{
     font-size: 130%;
-    color: wheat;
+    color: hwb(#f5c05e);
 }
 #text{
     font-size: 90%;
@@ -145,11 +145,13 @@ text-align: center;
     align-items: center;
     justify-content: center;
     opacity: 90%;
+    text-align: center;
 }
 #fim{
-   font-size: 200%;
+   font-size: 100%;
     color: white;
 }
+
 .TextIM{
     height: 70%;
     width: 100%;
@@ -344,6 +346,10 @@ text-align: center;
     .back{
         width: 300px;
     }
+    #title1{
+        font-size: 90%;
+        color: wheat;
+    }
     .Back{
         width: 87%;
         top: 24%;
@@ -395,6 +401,10 @@ text-align: center;
     .bo2{
         width: 4%;
     }
+    #title1{
+        font-size: 90%;
+        color: wheat;
+    }
     h1{
         font-size:21px;
     }
@@ -413,6 +423,10 @@ text-align: center;
 @media(max-width:450px){
     .logo, .menu {
         width: 15%;
+    }
+    #title1{
+        font-size: 90%;
+        color: wheat;
     }
     .back{
         width: 300px;
@@ -448,6 +462,10 @@ text-align: center;
     .logo, .menu {
         width: 15%;
     }
+    #title1{
+        font-size: 90%;
+        color: wheat;
+    }
     .back{
         width: 300px;
         top: 24%;
@@ -480,6 +498,10 @@ text-align: center;
 @media(max-width:393px) {
     .logo, .menu {
         width: 15%;
+    }
+    #title1{
+        font-size: 90%;
+        color: wheat;
     }
     .back{
         width: 300px;
@@ -520,6 +542,10 @@ text-align: center;
     .back{
         width: 300px;
     }
+    #title1{
+        font-size: 90%;
+        color: wheat;
+    }
     .Back{
         width: 87%;
         top: 24%;
@@ -550,6 +576,10 @@ text-align: center;
 @media(max-width:370px){
     .logo, .menu{
         width: 15%;
+    }
+    #title1{
+        font-size: 90%;
+        color: wheat;
     }
     .img{
         width: 206px;
@@ -584,6 +614,10 @@ text-align: center;
     }
     .back{
         width: 300px;
+    }
+    #title1{
+        font-size: 90%;
+        color: wheat;
     }
     .Back{
         width: 87%;
@@ -621,6 +655,10 @@ text-align: center;
 @media(max-width:315px) {
     .logo, .menu {
         width: 15%;
+    }
+    #title1{
+        font-size: 90%;
+        color: wheat;
     }
     .back{
         width: 300px;
@@ -667,7 +705,10 @@ text-align: center;
     .logo, .menu {
         width: 15%;
     }
-
+    #title1{
+    font-size: 90%;
+    color: wheat;
+}
     .img {
         width: 170px;
         height: 233px;
