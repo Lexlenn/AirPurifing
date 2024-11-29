@@ -84,8 +84,8 @@ header{
 }
 .Back{
     margin: 2%;
-    width: 400px;
-    height: 55%;
+    width: 260px;
+    height: 280px;
     background-color: black;
 }
 .back{
@@ -97,17 +97,27 @@ header{
 }
 .Text{
 background-color: rgb(199, 186, 186);
-height: 65%;
+height: 230px;
 width: 100%;
-opacity: 45;
+opacity: 100%;
 text-align: center;
+}
+#title{
+    font-size: 120%;
+}
+#text{
+    font-size: 100%;
 }
 .TextIM{
     height: 70%;
     width: 100%;
     align-items: center;
     justify-content: center;
+
 } 
+#ft{
+    position:initial;
+}
 /*altura*/
 @media(max-height:1180px){
  
@@ -134,7 +144,7 @@ text-align: center;
         width:7%;
     }
     .box{
-        width: 20%;
+        width: 0%;
     }
     .logomg{
         height: 52px;
@@ -280,10 +290,10 @@ text-align: center;
         font-size: 70%;
     }
     .back{
-        width: 145px;
+        width: 300px;
     }
     .Back{
-        width: 145px;
+        width: 87%;
     }
     .serifado {
         text-align: center;
@@ -317,10 +327,10 @@ text-align: center;
         
     }
     .back{
-        width: 145px;
+        width: 300px;
     }
     .Back{
-        width: 145px;
+        width: 87%;
     }
     .serifado{
         text-align: center;
@@ -349,10 +359,10 @@ text-align: center;
         width: 15%;
     }
     .back{
-        width: 145px;
+        width: 300px;
     }
     .Back{
-        width: 145px;
+        width: 87%;
     }
     .img{
         width: 220px;
@@ -381,10 +391,10 @@ text-align: center;
         width: 15%;
     }
     .back{
-        width: 145px;
+        width: 300px;
     }
     .Back{
-        width: 145px;
+        width: 87%;
     }
     .img{
         width: 220px;
@@ -412,10 +422,10 @@ text-align: center;
         width: 15%;
     }
     .back{
-        width: 145px;
+        width: 300px;
     }
     .Back{
-        width: 145px;
+        width: 87%;
     }
     .img {
         width: 220px;
@@ -446,10 +456,10 @@ text-align: center;
         width: 15%;
     }
     .back{
-        width: 145px;
+        width: 300px;
     }
     .Back{
-        width: 145px;
+        width: 87%;
     }
     .img{
         width: 220px;
@@ -488,10 +498,10 @@ text-align: center;
         width: 4%;
     }
     .back{
-        width: 145px;
+        width: 300px;
     }
     .Back{
-        width: 145px;
+        width: 87%;
     }
     #link {
         font-size: 75%;
@@ -507,10 +517,10 @@ text-align: center;
         width: 15%;
     }
     .back{
-        width: 145px;
+        width: 300px;
     }
     .Back{
-        width: 145px;
+        width: 87%;
     }
     .img{
         width: 170px;
@@ -545,10 +555,10 @@ text-align: center;
         width: 15%;
     }
     .back{
-        width: 145px;
+        width: 300px;
     }
     .Back{
-        width: 145px;
+        width: 87%;
     }
     .img {
         width: 170px;
@@ -594,10 +604,10 @@ text-align: center;
         height: 233px;
     }
     .back{
-        width: 145px;
+        width: 300px;
     }
     .Back{
-        width: 145px;
+        width: 87%;
     }
     .logomg {
         height: 49px;

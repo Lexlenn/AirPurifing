@@ -143,11 +143,12 @@ header{
     .logo{
         width:7%;
     }
-    .box{
-        width: 20%;
-    }
+    
     .logomg{
         height: 52px;
+    }
+    .box{
+        width: 0%;
     }
 }
 
@@ -216,7 +217,9 @@ header{
     .Proposta,.FDM{
        top:10%;
     }
-   
+    .texto{
+        top: 1%;
+    }
     .logo{
         width:10%;
     }
@@ -281,41 +284,12 @@ header{
     }
 }
 /*Largura*/
+@media (max-widht:1024px){
+    .texto{
+        top: 1%;
+    }
+}
 
-@media (max-widht:1358px){
-    .logo{
-        width: 10%;
-    }
-    .box{
-      width:6%;
-    }
-}
-@media (max-width:540px){
-    #link{
-        font-size: 90%;
-        
-    }
-    .serifado{
-        text-align: center;
-        font-size: 12px;
-    }
-    .bo2{
-        width: 4%;
-    }
-    h1{
-        font-size:21px;
-    }
-    .box{
-        width: 8%;
-    }
-    .logo{
-        width: 11%;
-    }
-    .img{
-        width: 220px;
-        height:290px;
-    }
-}
 @media (max-width:720px) {
     #link {
         font-size: 76%;
@@ -350,6 +324,41 @@ header{
         top:25%;
     }
 }
+@media (max-widht:1358px){
+    .logo{
+        width: 10%;
+    }
+    .box{
+      width:6%;
+    }
+}
+@media (max-width:540px){
+    #link{
+        font-size: 90%;
+        
+    }
+    .serifado{
+        text-align: center;
+        font-size: 12px;
+    }
+    .bo2{
+        width: 4%;
+    }
+    h1{
+        font-size:21px;
+    }
+    .box{
+        width: 8%;
+    }
+    .logo{
+        width: 11%;
+    }
+    .img{
+        width: 220px;
+        height:290px;
+    }
+}
+
 @media(max-width:450px){
     .logo, .menu {
         width: 15%;
