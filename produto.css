@@ -133,7 +133,7 @@ text-align: center;
 }
 #title1{
     font-size: 130%;
-    color: hwb(#f5c05e);
+    color: wheat;
 }
 #text{
     font-size: 90%;
@@ -148,7 +148,7 @@ text-align: center;
     text-align: center;
 }
 #fim{
-   font-size: 100%;
+   font-size: 130%;
     color: white;
 }
 
