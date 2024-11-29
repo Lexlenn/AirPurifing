@@ -25,6 +25,18 @@ body{
     width: 100%;
     z-index: 10;
 }
+.fundo1{
+    background-image: url(OIP-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position: bottom center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 80%;
+    position: absolute;
+    z-index: -1;
+}
 .fundo{
     background-image: url(FundoS.png);
     background-repeat: no-repeat;
@@ -85,19 +97,22 @@ header{
 .Back{
     margin: 2%;
     width: 260px;
-    height: 280px;
+    height: 300px;
     background-color: black;
+    position: absolute;
+    top: 70px;
 }
 .back{
     margin: 2%;
     width: 400px;
     height: 55%;
     background-color: black;
-    
+    position: absolute;
+    top: 46%;
 }
 .Text{
 background-color: rgb(199, 186, 186);
-height: 230px;
+height: 270px;
 width: 100%;
 opacity: 100%;
 text-align: center;
@@ -106,7 +121,7 @@ text-align: center;
     font-size: 120%;
 }
 #text{
-    font-size: 100%;
+    font-size: 90%;
 }
 .TextIM{
     height: 70%;
@@ -221,6 +236,7 @@ text-align: center;
         width:10%;
     }
 }
+
 @media(max-height:570px) {
     .Proposta, .FDM {
         top: 10%;
@@ -276,16 +292,25 @@ text-align: center;
     }
 }
 /*Largura*/
-
-@media (max-widht:1358px){
+@media(max-widht:1359px){
+    .Back{
+        position: absolute;
+        top: 44px;
+    }
+}
+@media(max-widht:1358px){
     .logo{
         width: 10%;
     }
     .box{
       width:6%;
     }
+    .back{
+        position: absolute;
+        top: 44px;
+    }
 }
-@media (max-width:720px) {
+@media(max-width:720px) {
     #link {
         font-size: 70%;
     }
@@ -294,6 +319,8 @@ text-align: center;
     }
     .Back{
         width: 87%;
+        top: 24%;
+
     }
     .serifado {
         text-align: center;
@@ -321,7 +348,7 @@ text-align: center;
         height: 290px;
     }
 }
-@media (max-width:540px){
+@media(max-width:540px){
     #link{
         font-size: 90%;
         
@@ -331,6 +358,8 @@ text-align: center;
     }
     .Back{
         width: 87%;
+        top: 24%;
+
     }
     .serifado{
         text-align: center;
@@ -363,6 +392,8 @@ text-align: center;
     }
     .Back{
         width: 87%;
+        top: 24%;
+
     }
     .img{
         width: 220px;
@@ -392,6 +423,8 @@ text-align: center;
     }
     .back{
         width: 300px;
+        top: 24%;
+
     }
     .Back{
         width: 87%;
@@ -423,6 +456,8 @@ text-align: center;
     }
     .back{
         width: 300px;
+        top: 24%;
+
     }
     .Back{
         width: 87%;
@@ -460,6 +495,8 @@ text-align: center;
     }
     .Back{
         width: 87%;
+        top: 24%;
+
     }
     .img{
         width: 220px;
@@ -502,6 +539,8 @@ text-align: center;
     }
     .Back{
         width: 87%;
+        top: 24%;
+
     }
     #link {
         font-size: 75%;
@@ -521,6 +560,8 @@ text-align: center;
     }
     .Back{
         width: 87%;
+        top: 24%;
+
     }
     .img{
         width: 170px;
@@ -559,6 +600,7 @@ text-align: center;
     }
     .Back{
         width: 87%;
+        top: 24%;
     }
     .img {
         width: 170px;
@@ -608,6 +650,8 @@ text-align: center;
     }
     .Back{
         width: 87%;
+        top: 24%;
+
     }
     .logomg {
         height: 49px;
